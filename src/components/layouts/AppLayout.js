@@ -8,7 +8,7 @@ export default function AppLayout({ children }) {
     <>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand as={Link} to={paths.main}>
-          Yummy (app)
+          Fitpad (app)
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

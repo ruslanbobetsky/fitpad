@@ -1,7 +1,8 @@
 import EventEmitter from 'events';
 
 class AuthManager {
-  tokenKey = 'BODY_FIT_TOKEN';
+
+  tokenKey = 'FIT_PAD_TOKEN';
 
   emitter = new EventEmitter();
 
